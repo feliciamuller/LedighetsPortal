@@ -1,0 +1,26 @@
+﻿@model LedighetsPortal.Models.EmployeeLeaveViewModel
+
+<div class="col-md-9">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Förnamn</th>
+                <th>Efternamn</th>
+                <th>Ledighet</th>
+                <th>Registreringsdatum</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var employee in Model.Employees)
+            {
+                <tr>
+                    <td>@employee.EmployeeFirstName</td>
+                    <td>@employee.EmployeeLastName</td>
+                    <td>@employee.LeaveType</td>
+                    <td>@employee.RegistrationDate</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+

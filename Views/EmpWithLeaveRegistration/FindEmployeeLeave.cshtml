@@ -1,0 +1,39 @@
+﻿@model LedighetsPortal.Models.EmployeeLeaveViewModel
+
+<h4>Ledighetsansökningar per person</h4>
+<div class="row">
+    <div class="col-md-3">
+        <form asp-controller="EmpWithLeaveRegistration" asp-action="FindEmployeeLeave" method="get">
+            <div class="form-group">
+                <label>Välj person i listan</label>
+                <select name="employeeId" class="form-control">
+                    <option value="">--Välj anställd--</option>
+                    @foreach(var emp in ViewBag.AllEmployees)
+                    {
+                        <option value="@emp.EmployeeId">@emp.EmployeeFirstName</option>
+                    }
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Filtrera</button>
+        </form>
+    </div>
+    <div class="col-md-9">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Förnamn</th>
+                    <th>Ledighet</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach(var employee in Model.Employees)
+                {
+                    <tr>
+                        <td>@employee.EmployeeFirstName</td>
+                        <td>@employee.LeaveType</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

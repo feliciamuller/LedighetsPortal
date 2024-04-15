@@ -1,0 +1,51 @@
+﻿@model LedighetsPortal.Models.LeaveRegistration
+
+@{
+    ViewData["Title"] = "Skapa";
+}
+
+<h4>Skapa ledighetsansökan</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="LeaveType" class="control-label"></label>
+                <select asp-for="LeaveType" class ="form-control">
+                <option disabled selected>Välj ledighetstyp</option>
+                <option>Semester</option>
+                <option>Sjuk</option>
+                <option>Vab</option>
+                <option>Övrig obetald semester</option>
+                </select>
+                <span asp-validation-for="LeaveType" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StartDate" class="control-label"></label>
+                <input asp-for="StartDate" class="form-control" />
+                <span asp-validation-for="StartDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EndDate" class="control-label"></label>
+                <input asp-for="EndDate" class="form-control" />
+                <span asp-validation-for="EndDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>Anställd</label>
+                <select asp-for="FKEmployeeId" class ="form-control" asp-items="ViewBag.FKEmployeeId"></select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Skapa" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Gå tillbaka</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

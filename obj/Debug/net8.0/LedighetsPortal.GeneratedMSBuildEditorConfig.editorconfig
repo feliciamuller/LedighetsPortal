@@ -1,0 +1,103 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = LedighetsPortal
+build_property.RootNamespace = LedighetsPortal
+build_property.ProjectDir = C:\Users\felic\OneDrive\Dokument\Objektorienterad Programmering med C# & .NET\LedighetsPortal\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\felic\OneDrive\Dokument\Objektorienterad Programmering med C# & .NET\LedighetsPortal
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/felic/OneDrive/Dokument/Objektorienterad Programmering med C\# & .NET/LedighetsPortal/Views/Employees/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/felic/OneDrive/Dokument/Objektorienterad Programmering med C\# & .NET/LedighetsPortal/Views/Employees/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/felic/OneDrive/Dokument/Objektorienterad Programmering med C\# & .NET/LedighetsPortal/Views/Employees/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/felic/OneDrive/Dokument/Objektorienterad Programmering med C\# & .NET/LedighetsPortal/Views/Employees/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/felic/OneDrive/Dokument/Objektorienterad Programmering med C\# & .NET/LedighetsPortal/Views/Employees/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/felic/OneDrive/Dokument/Objektorienterad Programmering med C\# & .NET/LedighetsPortal/Views/EmpWithLeaveRegistration/FindEmployeeLeave.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wV2l0aExlYXZlUmVnaXN0cmF0aW9uXEZpbmRFbXBsb3llZUxlYXZlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/felic/OneDrive/Dokument/Objektorienterad Programmering med C\# & .NET/LedighetsPortal/Views/EmpWithLeaveRegistration/FindLeaveRegMonth.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wV2l0aExlYXZlUmVnaXN0cmF0aW9uXEZpbmRMZWF2ZVJlZ01vbnRoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/felic/OneDrive/Dokument/Objektorienterad Programmering med C\# & .NET/LedighetsPortal/Views/EmpWithLeaveRegistration/LeaveHistory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wV2l0aExlYXZlUmVnaXN0cmF0aW9uXExlYXZlSGlzdG9yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/felic/OneDrive/Dokument/Objektorienterad Programmering med C\# & .NET/LedighetsPortal/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/felic/OneDrive/Dokument/Objektorienterad Programmering med C\# & .NET/LedighetsPortal/Views/LeaveRegistrations/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVSZWdpc3RyYXRpb25zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/felic/OneDrive/Dokument/Objektorienterad Programmering med C\# & .NET/LedighetsPortal/Views/LeaveRegistrations/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVSZWdpc3RyYXRpb25zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/felic/OneDrive/Dokument/Objektorienterad Programmering med C\# & .NET/LedighetsPortal/Views/LeaveRegistrations/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVSZWdpc3RyYXRpb25zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/felic/OneDrive/Dokument/Objektorienterad Programmering med C\# & .NET/LedighetsPortal/Views/LeaveRegistrations/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVSZWdpc3RyYXRpb25zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/felic/OneDrive/Dokument/Objektorienterad Programmering med C\# & .NET/LedighetsPortal/Views/LeaveRegistrations/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVSZWdpc3RyYXRpb25zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/felic/OneDrive/Dokument/Objektorienterad Programmering med C\# & .NET/LedighetsPortal/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/felic/OneDrive/Dokument/Objektorienterad Programmering med C\# & .NET/LedighetsPortal/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/felic/OneDrive/Dokument/Objektorienterad Programmering med C\# & .NET/LedighetsPortal/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/felic/OneDrive/Dokument/Objektorienterad Programmering med C\# & .NET/LedighetsPortal/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/felic/OneDrive/Dokument/Objektorienterad Programmering med C\# & .NET/LedighetsPortal/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-q39vzimsm6
